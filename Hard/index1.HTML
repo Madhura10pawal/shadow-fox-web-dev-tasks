@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<h1>My E-Commerce Store</h1>
+
+<div class="controls">
+  <select id="categoryFilter" onchange="filterProducts()">
+    <option value="all">All</option>
+    <option value="electronics">Electronics</option>
+    <option value="fashion">Fashion</option>
+  </select>
+
+  <select id="sortPrice" onchange="sortProducts()">
+    <option value="default">Sort by Price</option>
+    <option value="low">Low to High</option>
+    <option value="high">High to Low</option>
+  </select>
+</div>
+
+<div id="products" class="product-container"></div>
+
+<h2>Cart</h2>
+<ul id="cart"></ul>
+<button onclick="checkout()">Checkout</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
