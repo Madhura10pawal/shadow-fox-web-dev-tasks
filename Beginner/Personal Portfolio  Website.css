@@ -16,7 +16,6 @@ object-fit: cover;
     background-image: url("Madhura image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 } 
 #resume a{
     text-decoration: none;
